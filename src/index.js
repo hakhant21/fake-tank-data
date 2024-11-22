@@ -5,7 +5,7 @@ const path = require('path');
 const port = 3000;
 
 // Route to get data from data.json
-app.get('/api/data', (req, res) => {
+app.post('/api/data', (req, res) => {
     const dataPath = path.join(__dirname, '../data/tank.json');
     
     // Read the JSON file
