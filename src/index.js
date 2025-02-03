@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 // Route to get data from data.json
-app.get('/api/data', (req, res) => {
+app.post('/api/data', (req, res) => {
     
    const data = getTankData();
     // Read the JSON file
