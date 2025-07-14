@@ -7,7 +7,7 @@ const randomInRange = (min, max, decimals = 0) => {
 // Generate randomized tank data
 const generateRandomTank = (id) => {
     const oilTypes = ["Petrol 92", "95 Octane", "Diesel", "Super Diesel"];
-    const volume = randomInRange(1000, 99999);
+    const volume = randomInRange(1000, 29094.4);
     
     return {
         stateInfo: "No alarm",
